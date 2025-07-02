@@ -1,0 +1,10 @@
+:root {
+  --background: #f9f1f0;
+  --primary: #fadcd9;
+  --secondary: #f8afa6;
+}
+
+body {
+  font-family: Gilroy, sans-serif;
+  background-color: var(--background);
+}
