@@ -5,6 +5,94 @@
 }
 
 body {
-  font-family: Gilroy, sans-serif;
+  padding: 50px;
+  margin: 100px;
+  font-family: "DM Sans", sans-serif;
   background-color: var(--background);
+}
+.contact-box {
+  background-color: var(--primary);
+  border-radius: 6px;
+  padding: 15px;
+  margin: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.project-box {
+  background-color: var(--secondary);
+  padding: 50px;
+  border-radius: 6px;
+  margin: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+.more-about-me {
+  background-color: var(--primary);
+  border-radius: 6px;
+  padding: 50px 40px;
+  margin: 20px;
+  text-align: left;
+  font-size: 33px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.more {
+}
+.about-me {
+  font-weight: 100;
+  font-style: italic;
+}
+.developer {
+  font-weight: 100;
+  font-style: italic;
+}
+.headings-box {
+  text-align: left;
+  background-color: var(--primary);
+  border-radius: 6px;
+  padding: 50px;
+  margin: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.description-box {
+  background-color: var(--primary);
+  border-radius: 6px;
+  padding: 50px 40px;
+  margin: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  font-weight: 400;
+}
+.landing-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.hamburg {
+  font-family: "Inria Serif", serif;
+  padding-top: 10px;
+}
+.project-name {
+  font-weight: 200;
+  font-style: italic;
+}
+hr {
+  color: var(--background);
+  border-width: 2px;
+}
+@media screen and (min-width: 1100px) {
+  .material-symbols-outlined {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .material-symbols-outlined {
+    display: none;
+  }
+}
+#about-me-arrow {
+  position: relative;
+  left: 52px;
+  bottom: 83px;
+}
+#project-arrow {
+  position: relative;
+  left: 305px;
+  bottom: 322px;
 }

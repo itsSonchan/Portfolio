@@ -14,13 +14,15 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Extrabold.css"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap"
       rel="stylesheet"
     />
     <link
-      href="https://cdn.jsdelivr.net/gh/repalash/gilroy-free-webfont@fonts/Gilroy-Light.css"
       rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=arrow_outward"
     />
     <link rel="stylesheet" href="styles.css" />
     <script
@@ -30,26 +32,54 @@
     ></script>
   </head>
   <body>
-    <p>
-      With an extensive background in gastronomy, hospitality, and technical
-      support, Sonja has cultivated a
-      <strong>keen focus on customer experience.</strong>
-      <br />
-      Through <strong>SheCodes</strong> she found a new love in coding and is
-      now embracing the journey to
-      <strong>become a full-stack developer</strong> with the
-      <strong>consumer at heart.</strong>
-    </p>
-    <h1>Aspiring developer</h1>
-    <h2>based in Hamburg</h2>
-    <p>More about me</p>
-    <div class="project-box">
-      <p>Projects</p>
-      <p>Retro weather app</p>
-      <p>Tardis world clock</p>
-      <p>AI itinerary planner</p>
-      <p>Python data manipulation and visualization</p>
+    <div class="landing-page">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-5">
+            <p class="description-box">
+              With an extensive background in gastronomy, hospitality, and
+              technical support, Sonja has cultivated a
+              <strong>keen focus on customer experience.</strong>
+              <br /><br />
+              Through <strong>SheCodes</strong> she found a new love in coding
+              and is now embracing the journey to
+              <strong>become a full-stack developer</strong> with the
+              <strong>consumer at heart.</strong>
+            </p>
+            <p class="more-about-me">
+              <strong class="more">More</strong>
+              <br /><span class="about-me">about me</span
+              ><span class="material-symbols-outlined" id="about-me-arrow">
+                arrow_outward
+              </span>
+            </p>
+          </div>
+          <div class="col">
+            <div class="headings-box">
+              <h1>Aspiring <br /><span class="developer">developer</span></h1>
+              <h2 class="hamburg">based in Hamburg</h2>
+            </div>
+            <div class="project-box">
+              <p><strong>Projects</strong></p>
+              <hr />
+              <p class="project-name">Retro weather app</p>
+              <hr />
+              <p class="project-name">Tardis world clock</p>
+              <hr />
+              <p class="project-name">AI itinerary planner</p>
+              <hr />
+              <p class="project-name">
+                Python data manipulation and visualization
+              </p>
+              <hr />
+              <span class="material-symbols-outlined" id="project-arrow">
+                arrow_outward
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-box"><p>Contact me</p></div>
     </div>
-    <div class="contact-box"><p>Contact me</p></div>
   </body>
 </html>
