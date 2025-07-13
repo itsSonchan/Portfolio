@@ -31,13 +31,20 @@
       integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
       crossorigin="anonymous"
     ></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="landing-page">
-
       <div class="container text-center">
-      <h1 class="lg-text-start hero" ><span>SONJA GRUND</span><img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/170/346/original/Screenshot_2025-07-13_at_13.44.50.png?1752407280" alt="cat-drawing" width="80px"></h1>
-        <div class="row ">
+        <h1 class="lg-text-start hero">
+          <span>SONJA GRUND</span
+          ><img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/170/346/original/Screenshot_2025-07-13_at_13.44.50.png?1752407280"
+            alt="cat-drawing"
+            width="80px"
+          />
+        </h1>
+        <div class="row">
           <div class="d-none d-lg-block col-lg-5">
             <p class="description-box">
               With an extensive background in gastronomy, hospitality, and
@@ -49,7 +56,10 @@
               <strong>become a full-stack developer</strong> with the
               <strong>consumer at heart.</strong>
             </p>
-            <p class="more-about-me">
+            <p
+              class="more-about-me"
+              onclick="location.reload();location.href=('about.html')"
+            >
               <strong class="more">More</strong>
               <br /><span class="about-me">about me</span
               ><span class="material-symbols-outlined" id="about-me-arrow">
@@ -62,7 +72,10 @@
               <h1>Aspiring <br /><span class="developer">developer</span></h1>
               <h2 class="hamburg">based in Hamburg</h2>
             </div>
-            <div class="project-box">
+            <div
+              class="project-box"
+              onclick="location.reload();location.href=('projects.html')"
+            >
               <p><strong>Projects</strong></p>
               <br class="d-lg-block d-none" />
               <hr />
@@ -80,17 +93,37 @@
                 arrow_outward
               </span>
             </div>
-            <div class="d-xs-block d-lg-none contact-about-small">
-            Contact me</div>
-                        <div class="d-xs-block d-lg-none contact-about-small">
-About me</div>
+            <div class="d-xs-block d-lg-none contact-about-small
+            contact-me-small" >Contact
+            me
+          </div>
+          <div
+            class="d-xs-block d-lg-none contact-about-small about-me-small"
+            onclick="location.reload();location.href=('about.html')"
+          >
+            About me
           </div>
         </div>
       </div>
-      <div class="contact-box d-none d-lg-block"><div class="row">
-          <div class="col ">
-        <span class="contact-me">Contact me</span></div><div class="col" id="socials">
-        <span>LINKEDIN</span> <span>SHECODES</span> <span>LETTERBOXD</span></div>
+    </div>
+    <div class="contact-box d-none d-lg-block">
+      <div class="row">
+        <div class="col">
+          <span class="contact-me">Contact me</span>
+        </div>
+        <div class="col" id="socials">
+          <a
+            href="https://www.linkedin.com/in/sonja-grund-4a5152220"
+            target="_blank"
+            >LINKEDIN</a
+          ><a
+            href="https://www.shecodes.io/graduates/156305-sonja-grund"
+            target="_blank"
+            >SHECODES</a
+          ><a href="https://letterboxd.com/sonchan/" target="_blank"
+            >LETTERBOXD</a
+          >
+        </div>
       </div>
     </div>
   </body>

@@ -44,6 +44,9 @@ body {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   text-align: left;
 }
+.project-box:hover {
+  cursor: pointer;
+}
 .more-about-me {
   background-color: var(--primary);
   border-radius: 6px;
@@ -52,6 +55,9 @@ body {
   font-size: 33px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
+.more-about-me:hover {
+  cursor: pointer;
+}
 .contact-box {
   background-color: var(--primary);
   border-radius: 6px;
@@ -59,6 +65,13 @@ body {
   margin: 0 12px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   font-weight: 300;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.contact-me:hover {
+  cursor: pointer;
 }
 .contact-me {
   font-style: italic;
@@ -117,6 +130,12 @@ hr {
   border-radius: 6px;
   font-style: italic;
   margin: 20px 0;
+}
+.contact-me-small:hover {
+  cursor: pointer;
+}
+.about-me-small:hover {
+  cursor: pointer;
 }
 .col-5,
 .col {
