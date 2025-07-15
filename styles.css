@@ -176,13 +176,13 @@ hr {
 }
 .introduction {
   background-color: var(--primary);
-  margin: 20px;
-  padding: 20px;
+  margin: 50px 20px 80px;
+  padding: 30px;
   border-radius: 6px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   font-weight: 300;
   line-height: 2;
-  font-size: 15px;
+  font-size: 17px;
 }
 .daisy-drawing {
   transform: rotateY(180deg);
@@ -191,10 +191,21 @@ hr {
   background-color: var(--secondary);
   padding: 20px 30px;
   border-radius: 6px;
-  margin: 50px 20px;
+  margin: 50px 20px 60px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 .about-me-page {
   margin: 0 auto;
   max-width: 900px;
+}
+.about-contact-me {
+  background-color: var(--secondary);
+  padding: 30px 20px;
+  margin: 80px 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.contact-me-row {
+  font-weight: 300;
+  font-size: 19px;
 }
