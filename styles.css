@@ -145,6 +145,10 @@ hr {
   border-radius: 20px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
+.project-img:hover {
+  transform: scale(1.5, 1.5);
+  transition: 200ms ease-in-out;
+}
 h3 {
   font-size: 20px;
 }
