@@ -141,6 +141,17 @@ hr {
 .col {
   padding: 0;
 }
+.project-img {
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+h3 {
+  font-size: 20px;
+}
+.project-description {
+  padding: 50px;
+  margin: auto;
+}
 
 @media screen and (max-width: 1110px) {
   .material-symbols-outlined {
@@ -154,7 +165,7 @@ hr {
 
 .introduction {
   background-color: var(--primary);
-  margin: 50px 20px 80px;
+  margin: 50px 0px 80px;
   padding: 30px;
   border-radius: 6px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
@@ -165,11 +176,11 @@ hr {
 .daisy-drawing {
   transform: rotateY(180deg);
 }
-.about-me-header {
+.header {
   background-color: var(--secondary);
-  padding: 20px 30px;
+  padding: 20px;
   border-radius: 6px;
-  margin: 50px 20px 60px;
+  margin: 50px 0px 60px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
 }
 .about-me-page {
@@ -179,13 +190,22 @@ hr {
 .about-contact-me {
   background-color: var(--secondary);
   padding: 30px 20px;
-  margin: 80px 20px;
+  margin: 80px 0px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
 }
 .contact-me-row {
   font-weight: 300;
   font-size: 19px;
+}
+.project-page {
+  margin: 0 auto;
+  max-width: 900px;
+}
+.small-description {
+  margin: 15px;
+  font-size: 18px;
+  font-weight: 500;
 }
 @media screen and (max-width: 655px) {
   .cat-drawing {
@@ -226,5 +246,11 @@ hr {
   }
   .contact-me-row {
     font-size: 18px;
+  }
+  .project-img {
+    width: 300px;
+  }
+  .code-bracket {
+    display: none;
   }
 }
