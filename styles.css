@@ -152,28 +152,6 @@ hr {
   }
 }
 
-@media screen and (max-width: 655px) {
-  .cat-drawing {
-    display: none;
-  }
-  .hero {
-    text-align: center;
-    display: block;
-    padding: 30px;
-    font-size: 30px;
-  }
-  body {
-    margin: 20px auto;
-  }
-  .headings-box,
-  .project-box {
-    padding: 40px 15px;
-  }
-  .contact-about-small {
-    padding: 20 px;
-    font-size: 13px;
-  }
-}
 .introduction {
   background-color: var(--primary);
   margin: 50px 20px 80px;
@@ -208,4 +186,45 @@ hr {
 .contact-me-row {
   font-weight: 300;
   font-size: 19px;
+}
+@media screen and (max-width: 655px) {
+  .cat-drawing {
+    display: none;
+  }
+  .hero {
+    text-align: center;
+    display: block;
+    padding: 30px;
+    font-size: 30px;
+  }
+  body {
+    margin: 20px auto;
+    padding: 20px;
+  }
+  .headings-box,
+  .project-box {
+    padding: 40px 15px;
+  }
+  .contact-about-small {
+    padding: 20 px;
+    font-size: 13px;
+  }
+  .about-me-header {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+  .daisy-drawing {
+    width: 40px;
+  }
+  .introduction {
+    font-size: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .about-contact-me {
+    margin-top: 15px;
+  }
+  .contact-me-row {
+    font-size: 18px;
+  }
 }
